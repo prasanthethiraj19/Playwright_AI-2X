@@ -506,7 +506,7 @@ npx playwright show-trace <trace.zip>    # Open trace viewer
 > **Rule of thumb:** Don't move to the next chapter until you can explain the previous one out loud.
 
 ---
-
+ 
 ## 🔗 Resources
 
 - 📺 [The Testing Academy YouTube](https://youtube.com/@TheTestingAcademy)
