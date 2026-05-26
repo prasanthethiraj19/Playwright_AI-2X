@@ -33,6 +33,17 @@ This repository is your **week-by-week course companion** for the LearnPlaywrigh
 
 ---
 
+## 🆕 Recent Updates
+
+- Added new JavaScript chapters covering loops and arrays.
+- Added `chapter_10_loops/` with `for`, `while`, `do...while`, `for...of`, and loop practice examples.
+- Added `chapter_11_arrays/` with array creation, access, transformation, and methods.
+- Added `package.json` and `pnpm-lock.yaml` for dependency and package management.
+- Added `date.js` as a utility script.
+- Added `.gitignore` to exclude local artifacts like `node_modules/` and `.commandcode/`.
+
+---
+
 ## 🗺️ Curriculum Roadmap
 
 ```mermaid
