@@ -35,7 +35,8 @@ This repository is your **week-by-week course companion** for the LearnPlaywrigh
 
 ## 🆕 Recent Updates
 
-- Added new JavaScript chapters covering loops and arrays.
+- **Added Chapter 12: Functions** (22 files) — Function types, closures, higher-order functions, pure functions, arrow functions, IIFE, default parameters, rest parameters, and function scope.
+- **Expanded Chapter 11: Arrays** (files 092–095) — Advanced array slicing, concatenation, and array checking methods.
 - Added `chapter_10_loops/` with `for`, `while`, `do...while`, `for...of`, and loop practice examples.
 - Added `chapter_11_arrays/` with array creation, access, transformation, and methods.
 - Added `package.json` and `pnpm-lock.yaml` for dependency and package management.
@@ -56,12 +57,12 @@ graph TB
             ch2["Ch 2: JS Concepts ✅"]
             ch3["Ch 3: Identifiers & Literals ✅"]
             ch4["Ch 4: var / let / const & Hoisting ✅"]
-            ch5["Ch 5: Operators"]
-            ch6["Ch 6: If / Else"]
-            ch7["Ch 7: Switch"]
-            ch8["Ch 8: Loops"]
-            ch9["Ch 9: Arrays"]
-            ch10["Ch 10: Functions"]
+            ch5["Ch 5: Operators ✅"]
+            ch6["Ch 6: If / Else ✅"]
+            ch7["Ch 7: Switch ✅"]
+            ch8["Ch 8: Loops ✅"]
+            ch9["Ch 9: Arrays ✅"]
+            ch10["Ch 10: Functions ✅"]
             ch11["Ch 11: Strings"]
         end
 
@@ -128,7 +129,7 @@ LearnPlaywrightBatch2x/
 │   ├── VS_Code_keyboard_shortcut_mac.md     # macOS VS Code shortcuts
 │   └── VS_Code_keyboard_shortcut_windows.md # Windows VS Code shortcuts
 │
-├── chapter_04_Javascript_Concepts/     🚧 var / let / const & hoisting
+├── chapter_04_Javascript_Concepts/     ✅ var / let / const & hoisting
 │   ├── 09_var_let_const.js             # var, let, const basics
 │   ├── 10_functions.js                 # Function declaration & calls
 │   ├── 11_var_explained.js             # var deep dive
@@ -138,6 +139,58 @@ LearnPlaywrightBatch2x/
 │   ├── 15_let_scope.js                 # let block scope
 │   ├── 16_Hoisting.js                  # Variable hoisting explained
 │   └── 17_hoisting_fn.js               # Function hoisting
+│
+├── chapter_05_literals/                ✅ Literals & template strings
+│   └── [022–029_literals.js]           # Number, string, null, undefined, template literals
+│
+├── chapter_06_operator/                ✅ Operators (arithmetic, comparison, logical)
+│   └── [030–047_operators.js]          # All operator types & operator precedence
+│
+├── chapter_07_if_else/                 ✅ Conditional statements
+│   └── [048–057_if_else.js]            # If/else logic with real-world examples
+│
+├── chapter_08_switch/                  ✅ Switch statements
+│   └── [059–067_switch.js]             # Switch cases, break, default
+│
+├── chapter_09_userInput/               ✅ Reading user input
+│   ├── 068_User_Input.js               # prompt-sync, readline modules
+│   ├── 069_node_readline.js            # Node.js readline module
+│   └── 070_prompt_sync.js              # prompt-sync for input
+│
+├── chapter_10_loops/                   ✅ Loop constructs
+│   ├── [071–082_loops.js]              # for, while, do...while, for...of, for...in
+│   └── [IQ1–IQ4_loops.js]              # Interview questions on loops
+│
+├── chapter_11_arrays/                  ✅ Arrays & array methods
+│   ├── [084–087_arrays.js]             # Array creation, access, adding, removing elements
+│   ├── 092_array.js                    # Advanced array operations
+│   ├── 093_array_slicing.js            # Array slice & splice methods
+│   ├── 094_concat_Array.js             # Array concatenation
+│   └── 095_array_checking.js           # Array checking methods (isArray, etc.)
+│
+├── Chapter_12_fuctions/                ✅ Functions (types, closures, higher-order)
+│   ├── 096_functions.js                # Function basics
+│   ├── 097_type1_basic_functions.js    # Type 1: Basic function declaration
+│   ├── 098_type2_function_with_Param_no_return.js  # Type 2: With parameters, no return
+│   ├── 099_type3_function_without_param_NoReturn.js # Type 3: No parameters, no return
+│   ├── 100_function_withParam_withreturn.js # Type 4: Parameters with return
+│   ├── 101_Temple_literal.js           # Template literals in functions
+│   ├── 102_fn_expression.js            # Function expressions
+│   ├── 103_arrow_fn.js                 # Arrow function basics
+│   ├── 104_arrow_real.js               # Arrow function applications
+│   ├── 105_IIFE.js                     # Immediately Invoked Function Expressions
+│   ├── 106_defaultParam_fn.js          # Default function parameters
+│   ├── 107_Iq.js                       # Function interview questions
+│   ├── 108_restParam.js                # Rest parameters (...args)
+│   ├── 109_IQ.js                       # Rest parameter interview questions
+│   ├── 110_speadIQ.js                  # Spread operator interview questions
+│   ├── 111_scope_fn.js                 # Function scope & lexical scope
+│   ├── 112_IQ.js                       # Scope interview questions
+│   ├── 113_closure.js                  # Closures explained
+│   ├── 114_closure.js                  # More closure examples
+│   ├── 115_API_Real_closure.js         # Real-world closure usage
+│   ├── 116_highOrder_fn.js             # Higher-order functions
+│   └── 117_pure_fn.js                  # Pure functions
 │
 └── README.md                           👋 You are here
 ```
@@ -216,15 +269,15 @@ journey
 | Week | Topic | Chapters | Outcome |
 |:----:|-------|---------:|---------|
 | 1 | JS Basics & Setup | Ch 1 | Run Node, write first JS |
-| 2 | Variables & Hoisting | Ch 2 | Master `var`/`let`/`const` |
-| 3 | Identifiers, Literals, Operators | Ch 3–4 | Read/write any expression |
-| 4 | Control Flow | Ch 5–7 | If/else, switch, loops |
-| 5 | Arrays & Functions | Ch 8–9 | Manipulate data confidently |
-| 6 | Strings & Objects | Ch 10–11 | Use JS data structures |
-| 7 | Async (Callbacks → Promises) | Ch 12–14 | Handle async work |
-| 8 | Async/Await + OOP | Ch 15–17 | Modern async, classes |
-| 9 | TypeScript | Ch 18–22 | Type-safe automation code |
-| 10 | Playwright Fundamentals | Ch 23 | First passing test |
+| 2 | Variables & Hoisting | Ch 2–4 | Master `var`/`let`/`const` |
+| 3 | Identifiers, Literals, Operators | Ch 5–6 | Read/write any expression |
+| 4 | Control Flow | Ch 7–9 | If/else, switch, loops ✅ |
+| 5 | Arrays & Functions | Ch 10–11 ✅ | Manipulate data, write functions |
+| 6 | Strings & Objects | Ch 12–13 | Use JS data structures |
+| 7 | Async (Callbacks → Promises) | Ch 14–16 | Handle async work |
+| 8 | Async/Await + OOP | Ch 17–19 | Modern async, classes |
+| 9 | TypeScript | Ch 20–24 | Type-safe automation code |
+| 10 | Playwright Fundamentals | Ch 25 | First passing test |
 | 11 | Playwright CLI Mastery | CLI Lecture | Codegen, debug, trace |
 | 12 | AI Agents + MCP | AI/MCP Lectures | Self-healing, full STLC |
 
