@@ -39,6 +39,8 @@ This repository is your **week-by-week course companion** for the LearnPlaywrigh
 - **Expanded Chapter 11: Arrays** (files 092–095) — Advanced array slicing, concatenation, and array checking methods.
 - Added `chapter_10_loops/` with `for`, `while`, `do...while`, `for...of`, and loop practice examples.
 - Added `chapter_11_arrays/` with array creation, access, transformation, and methods.
+- Added `Chapter_12_fuctions/` with functions, closures, higher-order functions, arrow functions, rest parameters, spread, and scope.
+- Added `Chapter_13_Strings/` with string methods, properties, searching, substring operations, and transformation examples.
 - Added `package.json` and `pnpm-lock.yaml` for dependency and package management.
 - Added `date.js` as a utility script.
 - Added `.gitignore` to exclude local artifacts like `node_modules/` and `.commandcode/`.
@@ -63,7 +65,9 @@ graph TB
             ch8["Ch 8: Loops ✅"]
             ch9["Ch 9: Arrays ✅"]
             ch10["Ch 10: Functions ✅"]
-            ch11["Ch 11: Strings"]
+            ch11["Ch 11: Strings ✅"]
+            ch12["Ch 12: Functions ✅"]
+            ch13["Ch 13: Strings ✅"]
         end
 
         subgraph adv["⚙️ Advanced JS (Weeks 7–8)"]
@@ -191,6 +195,14 @@ LearnPlaywrightBatch2x/
 │   ├── 115_API_Real_closure.js         # Real-world closure usage
 │   ├── 116_highOrder_fn.js             # Higher-order functions
 │   └── 117_pure_fn.js                  # Pure functions
+│
+├── Chapter_13_Strings/                ✅ Strings, string methods, substring, and transform examples
+│   ├── 118_strings.js                 # String basics
+│   ├── 119_string_properties.js       # String properties
+│   ├── 120_search_check_str.js        # Search and string checking
+│   ├── 121_substring.js               # substring methods
+│   ├── 122_transform_string.js        # Case transformation and formatting
+│   └── 123_sc.js                      # String utilities and examples
 │
 └── README.md                           👋 You are here
 ```
