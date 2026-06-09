@@ -35,6 +35,7 @@ This repository is your **week-by-week course companion** for the LearnPlaywrigh
 
 ## 🆕 Recent Updates
 
+- **Added Chapter 15: 2D Arrays** (5 files) — 2D array creation, access, manipulation, functions with 2D arrays, and pattern-based problems.
 - **Added Chapter 12: Functions** (22 files) — Function types, closures, higher-order functions, pure functions, arrow functions, IIFE, default parameters, rest parameters, and function scope.
 - **Expanded Chapter 11: Arrays** (files 092–095) — Advanced array slicing, concatenation, and array checking methods.
 - Added `chapter_10_loops/` with `for`, `while`, `do...while`, `for...of`, and loop practice examples.
@@ -72,7 +73,7 @@ graph TB
 
         subgraph adv["⚙️ Advanced JS (Weeks 7–8)"]
             adv1["Ch 12: Objects"]
-            adv2["Ch 13: 2D Arrays"]
+            adv2["Ch 15: 2D Arrays ✅"]
             adv3["Ch 14: Callbacks"]
             adv4["Ch 15: Promises"]
             adv5["Ch 16: Async / Await"]
@@ -203,6 +204,13 @@ LearnPlaywrightBatch2x/
 │   ├── 121_substring.js               # substring methods
 │   ├── 122_transform_string.js        # Case transformation and formatting
 │   └── 123_sc.js                      # String utilities and examples
+│
+├── chapter_15_2D_Array/               ✅ 2D Arrays & multi-dimensional data structures
+│   ├── 138_2D_array.js                # 2D array creation & access
+│   ├── 139_2D.js                      # 2D array manipulation
+│   ├── 140_Real.js                    # Real-world 2D array use cases
+│   ├── 141_2D_array-fn.js             # Functions with 2D arrays
+│   └── 142_IQ-right-Pattern_py.js     # 2D array pattern problems
 │
 └── README.md                           👋 You are here
 ```
