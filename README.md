@@ -35,6 +35,8 @@ This repository is your **week-by-week course companion** for the LearnPlaywrigh
 
 ## 🆕 Recent Updates
 
+- **Added Chapter 17: Promises** — Promise creation, resolve/reject patterns, `.then()`, `.catch()`, promise chaining, real API call examples.
+- **Added Chapter 18: Async/Await** — Async functions, await keyword, error handling with try/catch, async patterns with API calls, real-world examples.
 - **Added Chapter 15: 2D Arrays** (5 files) — 2D array creation, access, manipulation, functions with 2D arrays, and pattern-based problems.
 - **Added Chapter 12: Functions** (22 files) — Function types, closures, higher-order functions, pure functions, arrow functions, IIFE, default parameters, rest parameters, and function scope.
 - **Expanded Chapter 11: Arrays** (files 092–095) — Advanced array slicing, concatenation, and array checking methods.
@@ -75,10 +77,10 @@ graph TB
             adv1["Ch 12: Objects"]
             adv2["Ch 15: 2D Arrays ✅"]
             adv3["Ch 14: Callbacks"]
-            adv4["Ch 15: Promises"]
-            adv5["Ch 16: Async / Await"]
-            adv6["Ch 17: OOP - Classes"]
-            adv7["Ch 18: Inheritance"]
+            adv4["Ch 17: Promises ✅"]
+            adv5["Ch 18: Async / Await ✅"]
+            adv6["Ch 19: OOP - Classes"]
+            adv7["Ch 20: Inheritance"]
         end
 
         subgraph ts["🟦 TypeScript (Week 9)"]
