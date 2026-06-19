@@ -12,15 +12,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "^11.3.0",
-      "onFail": "download"
-    }
-  },
   "type": "module",
   "dependencies": {
-    "commander": "^14.0.3"
+    "commander": "^14.0.3",
+    "playwright": "^1.61.0"
   }
 }
