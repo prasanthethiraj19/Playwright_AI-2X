@@ -38,6 +38,7 @@ This repository is your **week-by-week course companion** for the LearnPlaywrigh
 - **Fixed Chapter 20: Import/Export** — Corrected ES module import statements with `.js` file extensions and fixed function name references in 168_Import_Export.js.
 - **Added Chapter 17: Promises** — Promise creation, resolve/reject patterns, `.then()`, `.catch()`, promise chaining, real API call examples.
 - **Added Chapter 18: Async/Await** — Async functions, await keyword, error handling with try/catch, async patterns with API calls, real-world examples.
+- **Added Chapter 20: OOPS Basics** — Class and object fundamentals with member methods, constructors, encapsulation, and practical OOP examples.
 - **Added Chapter 15: 2D Arrays** (5 files) — 2D array creation, access, manipulation, functions with 2D arrays, and pattern-based problems.
 - **Added Chapter 12: Functions** (22 files) — Function types, closures, higher-order functions, pure functions, arrow functions, IIFE, default parameters, rest parameters, and function scope.
 - **Expanded Chapter 11: Arrays** (files 092–095) — Advanced array slicing, concatenation, and array checking methods.
